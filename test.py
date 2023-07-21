@@ -25,9 +25,13 @@ age = input("Please enter your age: ")
 print("Hello", name)
 print("You are {} years old".format(age))'''
 
-name = "Jide"
-lenght = float(input("Please enter the lenght of your room in feets:")) 
+#name = "Jide"
+'''lenght = float(input("Please enter the lenght of your room in feets:")) 
 width = float(input("Please enter the with of your room in feets:"))
 area = lenght * width
 
-print("The area of your room is {}ft".format(area))
+#print("The area of your room is {}ft".format(area))'''
+#print("I love this {}".format(name[-1]))
+
+
+
