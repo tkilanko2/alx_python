@@ -33,5 +33,64 @@ area = lenght * width
 #print("The area of your room is {}ft".format(area))'''
 #print("I love this {}".format(name[-1]))
 
+'''
+height, width = input('Enter 2 numbers in fts') .split()
+height = int(height)
+width = int(width)
 
+sum = height + width
+product = height * width
+remainder = height % width
+division = height / width
+rounded_up_devide = height // width
 
+print("Sum of {} + {} is {}".format(height, width, sum)) '''
+
+#to convert miles to kilometers
+
+#allow users to input 2 numbers with an operation and give the result 
+
+'''
+num1, operator, num2 = input('Enter calculation') .split()
+num1 = int(num1)
+num2 = int(num2)
+
+#calculation
+if operator == "+":
+    print("{} + {} = {}".format(num1, num2, num1+num2))
+elif operator == "-":
+        print("{} - {} = {}".format(num1, num2, num1-num2))
+elif operator == "*":
+        print("{} * {} = {}".format(num1, num2, num1*num2))
+elif operator == "/":
+        print("{} / {} = {}".format(num1, num2, num1/num2))
+else:
+    print('Use any of the following operators: +, -, / or *')  '''
+    
+    
+#different output based on age
+
+'''
+age = eval(input("Enter your age:")) 
+
+if age >= 1 and age <= 18:
+    print('You are {} years old, your age is important'.format(age))
+elif age == 21 or age ==50 or age == 65:
+    print('You are {} years old, your age is important'.format(age))
+else:
+    print('You are {}, your age is not important'.format(age)) '''
+    
+    
+    #age and kindagerten 
+    
+age = eval(input("Enter your age:")) 
+
+if age == 5:
+    print('You are {} years old, go to Kindergarten'.format(age))
+elif age >= 6 and age <= 17:
+    grade = age - 5
+    print('You are {} years old, go to grade {}'.format(age, grade))
+elif age == 17:
+    print('You are {} years old, go to College'.format(age))
+else:
+    print('You are {}, no luck for you'.format(age))
