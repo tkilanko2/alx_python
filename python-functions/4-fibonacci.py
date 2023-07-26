@@ -1,0 +1,1 @@
+def fibonacci_sequence(n): fib_sequence = [0, 1]; return fib_sequence if n < 2 else fib_sequence + [fib_sequence.append(fib_sequence[-1] + fib_sequence[-2]) or fib_sequence[-1] + fib_sequence[-2] for _ in range(n - 2)]
