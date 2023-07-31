@@ -5,4 +5,4 @@ if __name__ == "__main__":
     from variable_load_2 import a
 
     # Printing the value of 'a'
-    print("The value of 'a' is:", " {}".format(a))
+    print(a)
