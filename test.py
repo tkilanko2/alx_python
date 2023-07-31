@@ -82,8 +82,7 @@ else:
     
     
     #age and kindagerten 
-    
-age = eval(input("Enter your age:")) 
+'''age = eval(input("Enter your age:")) 
 
 if age == 5:
     print('You are {} years old, go to Kindergarten'.format(age))
@@ -93,4 +92,9 @@ elif age >= 6 and age <= 17:
 elif age == 17:
     print('You are {} years old, go to College'.format(age))
 else:
-    print('You are {}, no luck for you'.format(age))
+    print('You are {}, no luck for you'.format(age))  '''
+
+def my_function():
+     print("In my functions")
+ 
+my_function
